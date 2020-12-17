@@ -1,11 +1,17 @@
 .app-container{
 
-    background: rgb(54, 54, 54);
+    background: rgb(21, 32, 43);
     height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
 }
 
 body{
 
     padding: 0rem;
     margin: 0rem;
+    font-family: sans-serif;
+
 }
