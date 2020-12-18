@@ -1,4 +1,5 @@
 import './App.css';
+import Feed from './Feed/Feed';
 
 function App() {
   return (
@@ -11,8 +12,14 @@ function App() {
 
       <main>
 
+          <Feed/>
 
       </main>
+
+      <aside>
+
+        stuff
+      </aside>
      
     </div>
   );
