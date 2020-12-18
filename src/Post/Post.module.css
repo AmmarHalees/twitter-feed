@@ -40,11 +40,12 @@
     gap: 0.5rem;
     width: 100%;
     /* width: fit-content; */
-    align-items: center;
+    height: 20px;
 }
 
 .name{
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 18px;
 }
 .more-info{
     color: rgb(136, 153, 166);

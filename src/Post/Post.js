@@ -2,14 +2,14 @@ import React from 'react';
 import ControlsItem from './components/ControlsItem/ControlsItem';
 import styles from './Post.module.css';
 
-const Post = () => {
+const Post = ({id, user, description, title, src, comments }) => {
   return (
 
-    <div className={styles.post}>
+    <div className={styles.post} name={id}> 
 
       <div className={`${styles.post_column} ${styles.left}`}>
 
-        <img className={styles.user_image} src='https://pbs.twimg.com/profile_images/1085298427662077952/G7pyO36A_400x400.jpg' alt='Dan' />
+        <img className={styles.user_image} src={user.src} alt='Dan' />
 
       </div>
 
@@ -20,7 +20,7 @@ const Post = () => {
 
           <a href='/' className={styles.name}>
 
-            Dan Louis
+            {user.name}
 
           </a>
 
@@ -39,14 +39,12 @@ const Post = () => {
 
         <div className={styles.description}>
 
-          From Willie Mays to Mamie Johnson, the players and teams in the Negro Leagues changed the game of baseball and paved the way for so many today. Glad to see the
-          @MLB
-          officially recognize them as major leaguers.
+          {description}
         </div>
 
         <div className={styles.media}>
 
-          <img className={styles.post_media} src='https://pbs.twimg.com/media/EpdT5xvXYAEybqv?format=jpg&name=medium' alt='post' />
+          <img className={styles.post_media} src={src} alt='post' />
 
         </div>
 
