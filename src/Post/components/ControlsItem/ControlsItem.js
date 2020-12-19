@@ -5,6 +5,7 @@ import {ReactComponent as CommentIcon} from '../../../assets/logo/message-circle
 import {ReactComponent as ShareIcon} from '../../../assets/logo/share-2.svg';
 import {ReactComponent as RetweetIcon} from '../../../assets/logo/repeat.svg';
 import {ReactComponent as SettingsIcon} from '../../../assets/logo/more-horizontal.svg';
+import {ReactComponent as TwitterIcon} from '../../../assets/logo/twitter.svg';
 
 const iconMap = {
 
@@ -12,7 +13,8 @@ const iconMap = {
     comment: <CommentIcon/>,
     share: <ShareIcon/>,
     retweet: <RetweetIcon/>,
-    settings: <SettingsIcon/>
+    settings: <SettingsIcon/>,
+    twitter: <TwitterIcon style={{fill:'white', color:'white', height:'2rem', width:'2rem'}}/>
 
 
 }
@@ -28,7 +30,7 @@ const ControlsItem = ({ type }) => {
 
 
             </button>
-            {type === 'settings' ? null :   <div>
+            {['settings','twitter'].includes(type) ? null :   <div>
                 88
             </div>
 }

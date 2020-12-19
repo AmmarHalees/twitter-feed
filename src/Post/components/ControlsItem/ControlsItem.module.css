@@ -171,3 +171,31 @@
     color:rgba(29,161,242,1.00);
 
 }
+
+
+
+.twitter > button{
+
+    transition: background 100ms linear;
+
+}
+
+.twitter > div{
+
+    transition: background 100ms linear;
+
+}
+
+
+.twitter:hover > button{
+
+    background:rgb(29 161 242 / 12%);
+    color:rgba(29,161,242,1.00);
+
+}
+
+.twitter:hover > div{
+
+    color:rgba(29,161,242,1.00);
+
+}

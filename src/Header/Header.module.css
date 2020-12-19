@@ -1,0 +1,16 @@
+.header{
+
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    display: grid;
+    justify-content: end;
+    overflow: auto;
+    max-height: 100vh;
+    padding-top: 1rem;
+}
+
+.header nav{
+
+    width:275px
+}

@@ -22,13 +22,13 @@
 .header{
     position: sticky;
     background: rgb(21, 32, 43);
-    height: 71px;
+    height: 58px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 0rem 0rem 0rem 1rem;
     top: 0px;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 800;
 }
 
