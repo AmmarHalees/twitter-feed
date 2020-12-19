@@ -6,6 +6,8 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     max-width: 100%;
     color: rgb(255, 255, 255);
+    overflow-y: scroll;
+
 
 }
 
@@ -41,5 +43,31 @@ a{
     background: rgb(21, 32, 43);
     display: grid;
     grid-template-columns: 0.79fr 1.5fr 1fr;
+    min-height: 100vh;
+    height: 100%;
+}
 
+.app-main{
+
+    border-left: 1px solid rgb(56, 68, 77);
+    border-right: 1px solid rgb(56, 68, 77);
+
+    height: 100%;
+
+    position: relative;
+
+
+}
+
+
+.app-main  a > div , .app-main > div {
+
+    border-bottom: 1px solid rgb(56, 68, 77);
+
+
+}
+
+.app-main > a:last-child > div{
+
+    border: none;
 }

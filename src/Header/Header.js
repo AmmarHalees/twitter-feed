@@ -13,7 +13,19 @@ const Header = () => {
 
             <ControlsItem type='twitter'/>
 
+            <h2>stuff</h2>
+            <h2>stuff</h2>
+            <h2>stuff</h2>
+            <h2>stuff</h2>
+            <h2>stuff</h2>
+            <h2>stuff</h2>
+            <h2>stuff</h2>
+            <h2>stuff</h2>
+            <h2>stuff</h2>
+            <h2>stuff</h2>
+
           </nav>
+          
 
 
         </div>

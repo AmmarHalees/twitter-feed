@@ -199,3 +199,31 @@
     color:rgba(29,161,242,1.00);
 
 }
+
+
+
+.left-arrow > button{
+
+    transition: background 100ms linear;
+
+}
+
+.left-arrow > div{
+
+    transition: background 100ms linear;
+
+}
+
+
+.left-arrow:hover > button{
+
+    background:rgb(29 161 242 / 12%);
+    color:rgba(29,161,242,1.00);
+
+}
+
+.left-arrow:hover > div{
+
+    color:rgba(29,161,242,1.00);
+
+}
