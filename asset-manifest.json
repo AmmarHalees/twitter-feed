@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/twitter-feed/static/css/main.c037cad7.chunk.css",
+    "main.js": "/twitter-feed/static/js/main.c41a7305.chunk.js",
+    "main.js.map": "/twitter-feed/static/js/main.c41a7305.chunk.js.map",
+    "runtime-main.js": "/twitter-feed/static/js/runtime-main.ee1741fc.js",
+    "runtime-main.js.map": "/twitter-feed/static/js/runtime-main.ee1741fc.js.map",
+    "static/js/2.9321e854.chunk.js": "/twitter-feed/static/js/2.9321e854.chunk.js",
+    "static/js/2.9321e854.chunk.js.map": "/twitter-feed/static/js/2.9321e854.chunk.js.map",
+    "index.html": "/twitter-feed/index.html",
+    "static/css/main.c037cad7.chunk.css.map": "/twitter-feed/static/css/main.c037cad7.chunk.css.map",
+    "static/js/2.9321e854.chunk.js.LICENSE.txt": "/twitter-feed/static/js/2.9321e854.chunk.js.LICENSE.txt",
+    "static/media/arrow-left.8edfe59d.svg": "/twitter-feed/static/media/arrow-left.8edfe59d.svg",
+    "static/media/heart.b65bcc72.svg": "/twitter-feed/static/media/heart.b65bcc72.svg",
+    "static/media/message-circle.7796f8f5.svg": "/twitter-feed/static/media/message-circle.7796f8f5.svg",
+    "static/media/more-horizontal.43ecf751.svg": "/twitter-feed/static/media/more-horizontal.43ecf751.svg",
+    "static/media/repeat.4a725855.svg": "/twitter-feed/static/media/repeat.4a725855.svg",
+    "static/media/share-2.709c4a04.svg": "/twitter-feed/static/media/share-2.709c4a04.svg",
+    "static/media/twitter.410a9d14.svg": "/twitter-feed/static/media/twitter.410a9d14.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee1741fc.js",
+    "static/js/2.9321e854.chunk.js",
+    "static/css/main.c037cad7.chunk.css",
+    "static/js/main.c41a7305.chunk.js"
+  ]
+}
