@@ -5,7 +5,7 @@ import styles from './Post.module.css';
 const Post = ({id, user, description, title, src, comments }) => {
   return (
 
-    <div className={styles.post} name={id}> 
+    <div className={`tweet ${styles.post}`} name={id}> 
 
       <div className={`${styles.post_column} ${styles.left}`}>
 
@@ -44,8 +44,7 @@ const Post = ({id, user, description, title, src, comments }) => {
 
         <div className={styles.media}>
 
-          <img className={styles.post_media} src={src} alt='post' />
-
+         { src ? <img className={styles.post_media} src={src} alt='post' /> : null}
         </div>
 
         <div className={styles.post_controls}>

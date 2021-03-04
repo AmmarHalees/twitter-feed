@@ -13,6 +13,11 @@
                 "username":"NaderDabit",
                 "src":"https://pbs.twimg.com/profile_images/1268352530423205889/V6Nz7mIt_400x400.jpg"
             },
+            "reason":{
+
+                "main": "post by following",
+                "text": ""
+            },
             "description": "From Willie Mays to Mamie Johnson, the players and teams in the Negro Leagues changed the game of baseball and paved the way for so many today. Glad to see the",
             "src" : "https://pbs.twimg.com/media/EpdT5xvXYAEybqv?format=jpg&name=medium",
             
@@ -45,6 +50,11 @@
                 "src":"https://pbs.twimg.com/profile_images/1194080814688079872/6qhYKGKC_400x400.jpg"
 
             },
+            "reason":{
+
+                "main": "liked by following",
+                "text": "Liked"
+            },
             "description": "Leagues changed the game of baseball and paved the way for so many today. Glad to see the",
             "src" : "https://pbs.twimg.com/media/EpdT5xvXYAEybqv?format=jpg&name=medium",
             
@@ -60,8 +70,40 @@
                         "user_id":"DE5y45y5OWEMF",
                         "src":"https://pbs.twimg.com/profile_images/1085298427662077952/G7pyO36A_400x400.jpg"
 
+                    },
+                    "comments": [
 
-                    }
+                        {
+                            "content":"This is amazing",
+                            "id":"rgryhg5y5hgfhwf",
+                            "user":{
+        
+                                "username":"Moe",
+                                "name" : "Omar Dawood",
+                                "user_id":"DE5y45y5OWEMF",
+                                "src":"https://pbs.twimg.com/profile_images/1085298427662077952/G7pyO36A_400x400.jpg"
+        
+                            }
+        
+                        }
+                        
+                        ,
+
+                        {
+                            "content":"Thefefe ng",
+                            "id":"rgryhg5y5hgfhwf",
+                            "user":{
+        
+                                "username":"Moe",
+                                "name" : "Omar Dawood",
+                                "user_id":"DE5y45y5OWEMF",
+                                "src":"https://pbs.twimg.com/profile_images/1085298427662077952/G7pyO36A_400x400.jpg"
+    
+                            }
+        
+                        }
+        
+                    ]
 
                 }
 
@@ -77,6 +119,11 @@
                 "username":"RoaDar",
                 "src":"https://pbs.twimg.com/profile_images/1085298427662077952/G7pyO36A_400x400.jpg"
 
+            },
+            "reason":{
+
+                "main": "retweeted by follwing",
+                "text": "Retweeted"
             },
             "description": " the way for so many today. Glad to see the",
             "src" : "https://pbs.twimg.com/media/EpdT5xvXYAEybqv?format=jpg&name=medium",

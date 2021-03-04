@@ -40,11 +40,16 @@ a{
 }
 .app-container{
 
-    background: rgb(21, 32, 43);
+    background: rgb(0, 0, 0);
     display: grid;
-    grid-template-columns: 0.79fr 1.5fr 1fr;
+    grid-template-columns: 0.79fr 600px 1fr;
     min-height: 100vh;
     height: 100%;
+}
+
+aside{
+
+    width: 350px;
 }
 
 .app-main{
@@ -60,7 +65,7 @@ a{
 }
 
 
-.app-main  a > div , .app-main > div {
+.app-main  .tweet , .app-main > div {
 
     border-bottom: 1px solid rgb(56, 68, 77);
 
@@ -70,4 +75,11 @@ a{
 .app-main > a:last-child > div{
 
     border: none;
+}
+
+
+
+.post-link:hover{
+
+    text-decoration: none;
 }
